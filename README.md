@@ -4,9 +4,9 @@
 
 Static mirror of https://playground-grandstand.grok.me built for **root** hosting on the GitHub Pages organization site.
 
-**Live:** https://boxtech-theater.github.io/ (`/` → `/ar/`)
+**Live:** https://boxtech-theaters.github.io/ (`/` → `/ar/`)
 
-Repo: https://github.com/BoxTech-theater/BoxTech-theater.github.io
+Repo: https://github.com/BoxTech-theaters/BoxTech-theaters.github.io
 
 Previous sub-path mirror: https://theaterstage.github.io/BoxTech-seating/
 
@@ -37,4 +37,4 @@ Previous sub-path mirror: https://theaterstage.github.io/BoxTech-seating/
 
 - Converted from theaterstage/BoxTech-seating@fe2c0fc: removed every `/BoxTech-seating` prefix in HTML/JS/CSS/manifest/404.html.
 - Router basepath `/`, asset helper `Mv` returns `/`+e.
-- `sitemap.xml` and `robots.txt` use absolute `https://boxtech-theater.github.io/` URLs.
+- `sitemap.xml` and `robots.txt` use absolute `https://boxtech-theaters.github.io/` URLs.
