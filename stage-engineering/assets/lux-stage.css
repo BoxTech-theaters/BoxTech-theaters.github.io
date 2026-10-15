@@ -28,3 +28,5 @@ footer.bg-hall::before{content:"";position:absolute;inset-inline:0;top:0;height:
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 a.border.border-brass-soft{border-radius:999px}
 @media (max-width:640px){.lux-xbar-tel{display:none}.lux-xbar-in{gap:.9rem;font-size:.76rem}}
+
+/*bt-logo*/header a .grid.size-9{background:url(/logo-mark.svg) center/contain no-repeat;border:0}header a .grid.size-9>span{display:none}

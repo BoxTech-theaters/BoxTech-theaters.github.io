@@ -65,3 +65,6 @@ header.sticky a.bg-ink,header.sticky a.text-muted{white-space:nowrap}
 header.sticky>div.mx-auto{max-width:80rem;gap:1.25rem}}
 @media (min-width:1280px) and (max-width:1535px){header.sticky>div.mx-auto>a>span.text-xs{display:none}}
 @media (min-width:1536px){header.sticky nav.hidden{column-gap:1.25rem;font-size:.92rem}}
+
+/*bt-logo*/header a .display.text-xl::before,footer p.display.text-2xl::before{content:"";display:inline-block;flex:none;width:2.4rem;height:2.4rem;background:url(/logo-mark.svg) center/contain no-repeat;vertical-align:middle;margin-inline-end:.65rem}header a .display.text-xl{display:inline-flex;align-items:center}@media(max-width:640px){header a .display.text-xl::before{width:2.1rem;height:2.1rem}}
+/*bt-region*/header a .display.text-xl+span{display:block!important;max-width:16rem;line-height:1.4;color:#8a6d33;font-size:.72rem}@media(max-width:640px){header a .display.text-xl+span{max-width:9.5rem;font-size:.62rem}}

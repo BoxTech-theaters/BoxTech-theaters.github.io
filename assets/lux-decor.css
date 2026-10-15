@@ -4,3 +4,5 @@
 .dsteps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}.dsteps li{border:1px solid rgba(201,169,110,.28);padding:1.3rem;border-radius:4px}.dsteps span{display:block;font-size:1.8rem;color:#c9a96e;font-weight:300}.dsteps b{display:block;margin:.4rem 0}.dsteps p{margin:0;opacity:.8;font-size:.92rem}
 .dlist{padding-inline-start:1.2rem;line-height:2}.dcred img{width:120px;height:80px;object-fit:cover}.grid.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
 details.note summary{cursor:pointer}details.note{margin-bottom:.8rem}
+
+/*bt-logo*/.brand{position:relative;padding-inline-start:3.1rem;min-height:2.4rem}.brand::before{content:"";display:inline-block;flex:none;width:2.4rem;height:2.4rem;background:url(/logo-mark.svg) center/contain no-repeat;vertical-align:middle;margin-inline-end:.65rem;position:absolute;inset-inline-start:0;top:50%;transform:translateY(-50%);margin:0}

@@ -240,3 +240,5 @@ form.brief{display:grid;gap:.9rem;max-width:720px}
 .sep{height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent);border:0;margin:0}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media (max-width:640px){.topbar .tb-links a:nth-child(3){display:none}.topbar .wrap{justify-content:center;gap:.4rem 1rem;padding-block:.35rem}.topbar .tb-phones{gap:.8rem}}
+
+/*bt-logo*/.brand{position:relative;padding-inline-start:3.1rem;min-height:2.4rem}.brand::before{content:"";display:inline-block;flex:none;width:2.4rem;height:2.4rem;background:url(/logo-mark.svg) center/contain no-repeat;vertical-align:middle;margin-inline-end:.65rem;position:absolute;inset-inline-start:0;top:50%;transform:translateY(-50%);margin:0}
